@@ -1,0 +1,26 @@
+Global setup:
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email bahlhoney@gmail.com
+Add your public key - ("fe:80:62:3d:df:3a:70:f0:86:6a:a2:94:b5:f7:e7:77 bahlhoney@gmail.com")
+      
+Next steps:
+  mkdir Monopoly--SWE-621-
+  cd Monopoly--SWE-621-
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:hbahl/Monopoly--SWE-621-.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:hbahl/Monopoly--SWE-621-.git
+  git push -u origin master
+      
+Importing a Subversion Repo?
+  Click here
+      
+When you're done:
+  Continue
